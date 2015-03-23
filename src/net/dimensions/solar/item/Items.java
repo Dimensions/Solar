@@ -1,6 +1,6 @@
 package net.dimensions.solar.item;
 
-public enum Items
+public interface Items
 {
 
 }
