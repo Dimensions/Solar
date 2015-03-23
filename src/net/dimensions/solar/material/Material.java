@@ -3,12 +3,24 @@ package dimensions.solar.material;
 public enum Material{
     
     //Names according to the Minecraft wiki: https://minecraft.gamepedia.com/Data_values/Block_IDs
+    
+    //Blocks
     AIR("Air", "air", true, false),
     STONE("Stone", "stone", true, true),
     GRASS("Grass Block", "grass", true, true),
     DIRT("Dirt", "dirt", true, true),
     COBBLESTONE("Cobblestone", "cobblestone", true, true),
     WOOD_PLANKS("Wood Planks", "planks", true, true),
+    SAPLING("Sapling", "sapling", true, false),
+    BEDROCK("Bedrock", "bedrock", true, true),
+    WATER("Flowing Water", "flowing_water", true, false),
+    STATIONARY_WATER("Stationary Water", "water", true, false),
+    LAVA("Flowing Lava", "flowing_lava", true, false),
+    STATIONARY_LAVA("Stationary Lava", "lava", true, false),
+    SAND("Sand", "sand", true, true),
+    GRAVEL("Gravel", "gravel", true, true),
+    GOLD_ORE("Gold Ore", "gold_ore", true, true),
+    IRON_ORE("Iron Ore", "iron_ore", true, true),
     ;
 
     private String name;
