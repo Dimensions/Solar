@@ -2,14 +2,14 @@ package dimensions.solar.position;
 
 import dimensions.solar.world.World;
 
-public class Position {
+public class Location {
 
 	public World w;
 	public double x = 0;
 	public double y = 0;
 	public double z = 0;
 
-	public Position(World w, double x, double y, double z) {
+	public Location(World w, double x, double y, double z) {
 		this.w = w;
 		this.x = x;
 		this.y = y;

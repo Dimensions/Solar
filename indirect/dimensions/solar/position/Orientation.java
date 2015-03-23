@@ -2,8 +2,8 @@ package dimensions.solar.position;
 
 public class Orientation {
 
-	private final float yaw;
-	private final float pitch;
+	private float yaw;
+	private float pitch;
 
 	public Orientation(float yaw, float pitch) {
 		this.yaw = yaw % 360;
