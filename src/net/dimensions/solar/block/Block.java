@@ -1,22 +1,26 @@
 package net.dimensions.solar.block;
 
-public interface Block
-{
-    String getUnlocalizedName();
+public interface Block{
 
-    float getHardness();
+    public Material getType();
 
-    int getLightValue();
+    public void setType(Material m);
 
-    boolean isReplaceable();
+    public String getUnlocalizedName(); //I don't think we need this because it's already in the Material
 
-    boolean isBurning();
+    public float getHardness();
 
-    int getFlammability();
+    public int getLightValue();
 
-    boolean isFlammable();
+    public boolean isReplaceable();
 
-    int getFireSpreadSpeed();
+    public boolean isBurning();
 
-    boolean hasTileEntity();
+    public int getFlameTick();
+
+    public boolean isFlammable();
+
+    public int getFireSpreadSpeed();
+
+    public boolean isTileEntity();
 }
