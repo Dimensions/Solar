@@ -1,44 +1,34 @@
 package net.dimensions.solar.entity;
 
-import net.dimensions.solar.world.World;
-
-import java.util.UUID;
-
-public interface Entity
-{
-    int getEntityId();
-
-    UUID getEntityUuid();
-
-    World getWorld();
-
-    float getPosX();
-
-    float getPosY();
-
-    float getPosZ();
-
-    void setPosition(float posX, float posY, float posZ);
-
-    void setPosition(float posX, float posY, float posZ, float yaw, float pitch);
-
-    void setPosition(Entity entity);
-
-    float getVelX();
-
-    float getVelY();
-
-    float getVelZ();
-
-    void setVelocity(float velX, float velY, float velZ);
-
-    float getYaw();
-
-    float getPitch();
-
-    void setYaw(float yaw);
-
-    void setPitch(float pitch);
-
-    public boolean onGround();
+import java.util.List;	
+import net.dimensions.solar.position.Location;		
+import net.dimensions.solar.position.Orientation;		
+import net.dimensions.solar.position.Vector;		
+		
+public interface Entity {		
+			
+	public int getEntityId();		
+			
+	public Location getLocation();		
+			
+	public void setLocation(Location p);		
+			
+	public Orientation getOrientation();		
+			
+	public void setOrientation(Orientation o);		
+			
+	public Vector getVelocity();		
+			
+	public void setVelocity(Vector v);		
+			
+	public boolean isOnGround();		
+			
+	public void teleport(Location l);		
+			
+	public void teleport(Location l, Orientation o);		
+			
+	public void teleport(Entity e);		
+			
+	public List<Entity> getNearbyEntities(double x, double y, double z);		
+			
 }
