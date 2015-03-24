@@ -2,11 +2,26 @@ package net.dimensions.solar.world;
 
 import net.dimensions.solar.block.Block;
 
-public interface World
-{
-    String getWorldName();
+public interface World{
 
-    Block getBlock(int posX, int posY, int posZ);
+    String getName();
 
-    void setBlock(Block block, int posX, int posY, int posZ);
+    UUID getUUID();
+
+    Location getSpawnLocation();
+
+    long getSeed();
+
+    Block getBlock(int x, int y, int z);
+
+    void setBlock(Material m, int x, int y, int z);
+
+    Chunk getChunkAt(int x, int z);
+
+    Chunk[] getLoadedChunks();
+
+    List<Entity> getEntities();
+
+    List<Player> getPlayers();
+
 }
