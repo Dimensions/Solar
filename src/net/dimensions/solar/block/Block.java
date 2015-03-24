@@ -1,10 +1,15 @@
 package net.dimensions.solar.block;
 
+import net.dimensions.solar.material.Material;
+import net.dimensions.solar.world.World;
+
 public interface Block{
 
     public Material getType();
 
     public void setType(Material m);
+
+    public World getWorld();
 
     public String getUnlocalizedName(); //I don't think we need this because it's already in the Material
 
