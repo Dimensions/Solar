@@ -42,7 +42,7 @@ public enum Material{
     WOOL("Wool", "wool", true, true),
     PISTON_EXTENSION("Piston Extension", "piston_extension", true, false),
     DANDELIOIN("Dandelion", "yellow_flower", true, false),
-    POPPY("Poppy", "red_flower', true false),
+    POPPY("Poppy", "red_flower", true, false),
     BROWN_MUSHROOM("Brown Mushroom", "brown_mushroom", true, false),
     RED_MUSHROOM("Red Mushroom", "red_mushroom", true, false),
     GOLD_BLOCK("Gold Block", "gold_block", true, true),
