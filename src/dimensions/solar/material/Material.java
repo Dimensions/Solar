@@ -70,8 +70,19 @@ public enum Material{
     SIGN_STANDING("Standing Sign", "standing_sign", true, false),
     OAK_DOOR("Wooden Door", "wooden_door", true, true),
     LADDER("Ladder", "ladder", true, false),
-
-    ;    
+    RAIL("Rail", "rail", true, false),
+    STONE_STAIRS("Stone Stairs", "stone_stairs", true, true),
+    WALL_SIGN("Wall Sign", "wall_sign", true, false),
+    LEVER("Lever", "lever", true, false),
+    STONE_PRESSURE_PLATE("Stone Pressure Plate", "stone_pressure_plate", true, false),
+    IRON_DOOR("Iron Door", "iron_door", true, true),
+    WOODEN_PRESSURE_PLATE("Wooden Pressure Plate", "wooden_pressure_plate", true, false),
+    REDSTONE_ORE("Redstone Ore", "redstone_ore", true, true),
+    REDSTONE_ORE_LIT("Lit Redstone Ore", "lit_redstone_ore", true, true),
+    REDSTONE_TORCH_UNLIT("Unlit Redstone Torch", "unlit_redstone_torch", true, true),
+    REDSTONE_TORCH("Redstone Torch", "redstone_torch", true, true),
+    STONE_BUTTON("Stone Button", "stone_button", true, false),
+    ;
 
     private String name;
     private boolean isBlock, isSolid;
