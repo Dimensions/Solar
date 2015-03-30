@@ -1,16 +1,15 @@
 package dimensions.solar.plugin;
 
+public interface PluginContainer {
 
-import dimensions.solar.command.CommandContainer;
+    String getId();
 
-import java.util.ArrayList;
-import java.util.List;
+    String getName();
 
-public class PluginContainer
-{
-    public String pluginId;
-    public String name = pluginId;
-    public String version = "1.0.0";
-    public List<String> dependencies = new ArrayList<String>();
-    public List<CommandContainer> commands = new ArrayList<String>();
+    String getVersion();
+    
+    String[] getAuthors();
+    
+    Plugin getInstance();
+
 }
