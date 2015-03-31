@@ -1,5 +1,8 @@
 package dimensions.solar.world;
 
+import dimensions.solar.block.Block;
+import dimensions.solar.entity.Entity;
+
 public interface Chunk{
     
     public int getX();

@@ -1,6 +1,13 @@
 package dimensions.solar.world;
 
+import java.util.List;
+import java.util.UUID;
+
 import dimensions.solar.block.Block;
+import dimensions.solar.entity.Entity;
+import dimensions.solar.entity.Player;
+import dimensions.solar.material.Material;
+import dimensions.solar.position.Location;
 
 public interface World{
 
