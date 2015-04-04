@@ -26,7 +26,7 @@ public enum Order {
     private final boolean ignoreCancelled;
 
     Order(int index, boolean ignoreCancelled) {
-        this.index = id;
+        this.id = index;
         this.ignoreCancelled = ignoreCancelled;
     }
 
