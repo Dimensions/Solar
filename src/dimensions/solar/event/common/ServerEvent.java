@@ -1,4 +1,4 @@
-package dimensions.solar.event.server;
+package dimensions.solar.event.common;
 
 import dimensions.solar.event.Event;
 

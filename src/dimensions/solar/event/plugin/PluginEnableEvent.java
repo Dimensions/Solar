@@ -1,4 +1,5 @@
 package dimensions.solar.event.plugin;
+import dimensions.solar.event.common.PluginEvent;
 /**
  * @Called when a Plugin is Enabled.
  */

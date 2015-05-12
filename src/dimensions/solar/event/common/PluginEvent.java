@@ -1,4 +1,4 @@
-package dimensions.solar.event.plugin;
+package dimensions.solar.event.common;
 
 import dimensions.solar.event.Event;
 import dimensions.solar.plugin.Plugin;
