@@ -117,4 +117,12 @@ public enum ChatColor {
         return toString;
     }
 
+	public boolean isFormat() {
+		return isFormat;
+	}
+
+	public int getIntCode() {
+		return intCode;
+	}
+
 }

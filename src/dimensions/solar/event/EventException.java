@@ -2,7 +2,9 @@ package dimensions.solar.event;
 
 public class EventException extends Exception{
 
-    public EventException(String message) {
+	private static final long serialVersionUID = 8627866409985405610L;
+
+	public EventException(String message) {
         super(message);
     }
 
