@@ -1,10 +1,10 @@
 package dimensions.solar;
 
-public interface Server
-{
-    String getName();
+public interface Server {
 
-    String getMotd();
+    public String getName();
 
-    String getVersion();
+    public String getMotd();
+
+    public String getVersion();
 }
