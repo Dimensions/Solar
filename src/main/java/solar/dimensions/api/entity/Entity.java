@@ -7,6 +7,7 @@ import solar.dimensions.api.position.Vector;
 import java.util.List;
 
 public interface Entity {
+
     int getEntityId();
 
     Location getLocation();
@@ -36,4 +37,6 @@ public interface Entity {
     void setFireTicks(int i);
 
     void kill();
+
+    boolean isAlive();
 }
