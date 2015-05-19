@@ -2,6 +2,7 @@ package solar.dimensions.api;
 
 import solar.dimensions.api.entity.Player;
 
+import java.util.List;
 import java.util.UUID;
 
 public interface Server {
