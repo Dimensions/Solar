@@ -1,5 +1,9 @@
 package solar.dimensions.api;
 
+import solar.dimensions.api.entity.Player;
+
+import java.util.UUID;
+
 public interface Server {
 
     String getName();
@@ -8,6 +12,18 @@ public interface Server {
 
     String getVersion();
 
-    List<Player> getPlayers();
+    int getMaxPlayers();
+
+    List<Player> getOnlinePlayers();
+
+    List<Player> getPlayers(String... names);
+
+    List<Player> getPlayers(UUID... uuids);
+
+    Player getPlayer(String name);
+
+    Player getPlayer(UUID uuid);
+
+    
 
 }
