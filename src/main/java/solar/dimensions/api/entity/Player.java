@@ -1,5 +1,13 @@
 package solar.dimensions.api.entity;
 
-public interface Player extends Entity {
+import java.util.UUID;
+
+public interface Player extends LivingEntity {
+
+    String getName();
+
     String getDisplayName();
+
+    UUID getUUID();
+
 }
