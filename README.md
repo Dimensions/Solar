@@ -1,4 +1,4 @@
-# Solar
+# Solar [![Build Status](https://travis-ci.org/Dimensions/Solar.svg)](https://travis-ci.org/Dimensions/Solar)
 The API for Dimensions
 
 ##Plugins
