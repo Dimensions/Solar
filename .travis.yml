@@ -1,11 +1,9 @@
 language: java
-
-jdk:
-  - oraclejdk8
-
-branches:
-  only:
-    - master
-
-before_script:
-  - chmod +x gradlew
+notifications:
+  email: false
+install: true
+jdk: oraclejdk8
+script: gradle clean build
+cache:
+  directories:
+    - ~/.gradle
