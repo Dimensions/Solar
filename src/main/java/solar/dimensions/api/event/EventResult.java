@@ -19,9 +19,9 @@ public enum EventResult {
      */
     ALLOW(true);
 
-    private Boolean result;
+    private boolean result;
 
-    private Result(boolean result) {
+    private EventResult(boolean result) {
         this.result = result;
     }
 
