@@ -5,8 +5,8 @@ Follow the [style guides](https://github.com/Dimensions/Dimensions/blob/master/S
 ## Git Commit Messages
 When making commits, it is improtant to have a commit message that explains what is in the commit.
 
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Use the present tense ("add feature" not "added feature")
+* Use the imperative mood ("move cursor to..." not "moves cursor to...")
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally
 * Consider starting the commit message with an applicable emoji:
@@ -22,5 +22,5 @@ When making commits, it is improtant to have a commit message that explains what
     * :fire: `:fire:` when removing code or files
     * :green_heart: `:green_heart:` when fixing the CI build
     * :lock: `:lock:` when dealing with security
-    * :arrow_up: `:arrow_up:` when upgrading dependencies
-    * :arrow_down: `:arrow_down:` when downgrading dependencies
+    * :arrow_up: `:arrow_up:` when upgrading/updating files
+    * :arrow_down: `:arrow_down:` when downgrading/rollback files
