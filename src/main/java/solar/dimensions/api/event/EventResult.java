@@ -6,26 +6,17 @@ public enum EventResult {
      * will either not take place or will be reverted. Some actions may not be
      * denied.
      */
-    DENY(false),
+    DENY,
     /**
      * Neither deny nor allow the event. The server will proceed with its normal
      * handling.
      */
-    DEFAULT(null),
+    DEFAULT,
     /**
      * Allow / Force the event. The action indicated by the event will take
      * place if possible, even if the server would not normally allow the
      * action. Some actions may not be allowed.
      */
-    ALLOW(true);
+    ALLOW;
 
-    private boolean result;
-
-    private EventResult(boolean result) {
-        this.result = result;
-    }
-
-    public boolean getResult() {
-        return result;
-    }
 }
